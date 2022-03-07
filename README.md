@@ -78,7 +78,7 @@ networks:
 
 nginx.conf (without ssl)
 
-``` 
+``` yml
 upstream keycloak_backend {
   server keycloak:8080;
 }
@@ -106,7 +106,7 @@ server {
 
 nginx.conf (with SSL)
 
-```
+``` yml
 upstream keycloak_backend {
   server keycloak:8080;
 }
